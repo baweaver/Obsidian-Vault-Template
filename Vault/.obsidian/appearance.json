@@ -1,9 +1,9 @@
 {
   "accentColor": "#43cfea",
-  "cssTheme": "Vanilla AMOLED",
-  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
-  "textFontFamily": "JetBrainsMono Nerd Font Mono",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "cssTheme": "Vauxhall",
+  "interfaceFontFamily": "MonoLisa,JetBrainsMono Nerd Font Mono",
+  "textFontFamily": "MonoLisa,JetBrainsMono Nerd Font Mono",
+  "monospaceFontFamily": "MonoLisa,JetBrainsMono Nerd Font Mono",
   "enabledCssSnippets": [
     "retro-notebook-bg",
     "Daily Note",

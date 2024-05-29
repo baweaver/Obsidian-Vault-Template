@@ -1,22 +1,199 @@
 {
-  "main": {},
+  "main": {
+    "id": "e92d0ceff9ab3357",
+    "type": "split",
+    "children": [
+      {
+        "id": "e507ff4aecb26410",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b794db6437fe2252",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b630b9aac8110f5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1633a2e82699072f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48db5e5e042efd58",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1c216b84f65404e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b92a72d2ba5d78e8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "9c4718c0c6e5c0c7",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e2923ca1019dc92a",
+    "type": "split",
+    "children": [
+      {
+        "id": "062ce06b6ec9ecd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95e1f78d8ee90273",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4361557318f5ec66",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "507e26278cc7532e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6f56ec680efde17b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "2d07d74799cb79e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
+              }
+            }
+          },
+          {
+            "id": "d30463d87258ed7b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:Open quick switcher": true,
       "command-palette:Open command palette": true,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "zk-prefixer:Create new unique note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": true,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-importer:Open Importer": true,
-      "templater-obsidian:Templater": true,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "dbfolder:Create a new database table": false,
+      "janitor:Janitor: scan vault": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "",
-  "lastOpenFiles": []
+  "active": "b794db6437fe2252",
+  "lastOpenFiles": [
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "06 - Daily/20240529.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "00 - Maps of Content/Placeholder.md"
+  ]
 }

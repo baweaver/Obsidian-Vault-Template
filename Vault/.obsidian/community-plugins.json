@@ -13,5 +13,20 @@
   "templater-obsidian",
   "calendar",
   "homepage",
-  "obsidian-advanced-slides"
+  "obsidian-advanced-slides",
+  "obsidian-style-settings",
+  "table-editor-obsidian",
+  "better-word-count",
+  "cmdr",
+  "dataview",
+  "dbfolder",
+  "obsidian-git",
+  "janitor",
+  "obsidian-kanban",
+  "note-refactor-obsidian",
+  "obsidian-plugin-update-tracker",
+  "obsidian-reading-time",
+  "obsidian-tasks-plugin",
+  "obsidian-textgenerator-plugin",
+  "obsidian-tracker"
 ]
