@@ -31,6 +31,7 @@
       {
         "id": "1633a2e82699072f",
         "type": "tabs",
+        "dimension": 65.87628865979381,
         "children": [
           {
             "id": "48db5e5e042efd58",
@@ -70,6 +71,21 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "5118e9db2e3d4256",
+        "type": "tabs",
+        "dimension": 34.123711340206185,
+        "children": [
+          {
+            "id": "d30463d87258ed7b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -148,21 +164,13 @@
                 "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
               }
             }
-          },
-          {
-            "id": "d30463d87258ed7b",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +195,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "b794db6437fe2252",
+  "active": "48db5e5e042efd58",
   "lastOpenFiles": [
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
