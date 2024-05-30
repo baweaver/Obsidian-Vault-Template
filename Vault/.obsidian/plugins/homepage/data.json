@@ -2,14 +2,14 @@
   "version": 3,
   "homepages": {
     "Main Homepage": {
-      "value": "Home",
-      "kind": "Daily Note",
+      "value": "00 - Maps of Content/00 Homepage",
+      "kind": "File",
       "openOnStartup": true,
       "openMode": "Keep open notes",
       "manualOpenMode": "Keep open notes",
       "view": "Editing view (Live Preview)",
       "revertView": true,
-      "openWhenEmpty": false,
+      "openWhenEmpty": true,
       "refreshDataview": false,
       "autoCreate": true,
       "autoScroll": false,

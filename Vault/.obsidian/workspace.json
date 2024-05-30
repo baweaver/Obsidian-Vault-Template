@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e507ff4aecb26410",
+        "id": "de496cfef61099c8",
         "type": "tabs",
         "children": [
           {
-            "id": "b794db6437fe2252",
+            "id": "2db083ce38c85c4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Bar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,12 +161,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md"
               }
+            }
+          },
+          {
+            "id": "473af58c90869e4b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -174,34 +182,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": true,
       "command-palette:Open command palette": true,
       "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
       "zk-prefixer:Create new unique note": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": true,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-importer:Open Importer": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "dbfolder:Create a new database table": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
       "janitor:Janitor: scan vault": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "48db5e5e042efd58",
+  "active": "2db083ce38c85c4e",
   "lastOpenFiles": [
-    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "06 - Daily/00 - Weekly/2024-W22.md",
     "06 - Daily/20240529.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
+    "07 - Archives/Placeholder.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
-    "00 - Maps of Content/Placeholder.md"
+    "00 - Maps of Content/00 Homepage.md",
+    "06 - Daily/03 - Yearly",
+    "06 - Daily/02 - Quarterly",
+    "06 - Daily/01 - Monthly",
+    "06 - Daily/00 - Weekly",
+    "00 - Maps of Content/Placeholder.md",
+    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md"
   ]
 }

@@ -1,6 +1,5 @@
 [
   "obsidian-spaced-repetition",
-  "obsidian-smart-typography",
   "obsidian-importer",
   "settings-search",
   "obsidian-completr",
@@ -28,5 +27,9 @@
   "obsidian-reading-time",
   "obsidian-tasks-plugin",
   "obsidian-textgenerator-plugin",
-  "obsidian-tracker"
+  "obsidian-tracker",
+  "nldates-obsidian",
+  "obsidian-paste-image-rename",
+  "darlal-switcher-plus",
+  "periodic-notes"
 ]

@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "(TEMPLATE) Weekly",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md"
+    },
+    {
+      "basename": "2024-W22",
+      "path": "06 - Daily/00 - Weekly/2024-W22.md"
+    },
+    {
+      "basename": "20240529",
+      "path": "06 - Daily/20240529.md"
+    },
+    {
+      "basename": "(TEMPLATE) Daily",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
+    },
+    {
+      "basename": "Placeholder",
+      "path": "07 - Archives/Placeholder.md"
+    },
+    {
+      "basename": "(TEMPLATE) Unique",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md"
+    },
+    {
+      "basename": "00 Homepage",
+      "path": "00 - Maps of Content/00 Homepage.md"
+    },
+    {
       "basename": "202403091325 General Tweaks CSS Classes",
       "path": "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
     },
@@ -11,18 +39,6 @@
     {
       "basename": "(TEMPLATE) Daily (Vanilla)",
       "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md"
-    },
-    {
-      "basename": "(TEMPLATE) Daily",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
-    },
-    {
-      "basename": "(TEMPLATE) Unique",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md"
-    },
-    {
-      "basename": "Placeholder",
-      "path": "00 - Maps of Content/Placeholder.md"
     }
   ],
   "omittedPaths": [],
