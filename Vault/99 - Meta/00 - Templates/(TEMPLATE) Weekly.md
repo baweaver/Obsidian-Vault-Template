@@ -65,7 +65,10 @@ TABLE
   file.ctime AS "Created",
   file.folder AS "Folder",
   file.tags AS "Tags"
-WHERE date(file.ctime).weekyear = <% weekNumber %>
+WHERE
+  date(file.ctime).weekyear = <% weekNumber %>
+  AND !contains(file.folder, "99 - Meta")
+  AND !contains(file.name, "Placeholder")
 SORT file.cday
 ```
 
@@ -77,7 +80,9 @@ TABLE
   file.folder AS "Folder",
   file.tags AS "Tags"
 WHERE
-  date(file.mtime).weekyear = <% weekNumber %> AND
-  date(file.ctime).weekyear != <% weekNumber %> 
+  date(file.mtime).weekyear = <% weekNumber %>
+  AND date(file.ctime).weekyear != <% weekNumber %>
+  AND !contains(file.folder, "99 - Meta")
+  AND !contains(file.name, "Placeholder")
 SORT file.cday
 ```

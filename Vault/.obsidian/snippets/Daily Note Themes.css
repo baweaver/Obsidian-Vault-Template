@@ -9,6 +9,13 @@ schemes to daily notes for each day of the week.
 To customize the colors for each day, just swamp out the colors values under
 the main "day of the week" classes.
 
+The themes have been tweaked from the original to use HSL rather than RGB, and
+each successive day decrements the Hue by 50 while retaining the same saturation
+and luminosity.
+
+Shadows have increased saturation, lower luminosity, and are +10 hue from primary (warmer)
+Highlights have decreased saturation, higher luminosity, and are -10 hue from primary (colder)
+
 ------------------------------------------------------------------------------*/
 :root {
   --highlight: #ffffff;
@@ -18,6 +25,15 @@ the main "day of the week" classes.
   --primary-font: "Helvetica Neue";
   --secondary-font: "MonoLisa";
   --mono-font: "MonoLisa";
+
+  --highlight-saturation: 50%;
+  --highlight-luminosity: 75%;
+
+  --primary-saturation: 60%;
+  --primary-luminosity: 50%;
+
+  --dark-saturation: 70%;
+  --dark-luminosity: 5%;
 }
 
 .daily {
@@ -53,45 +69,157 @@ the main "day of the week" classes.
 }
 
 .sunday, .Sunday {
-  --highlight: #f39caa;
-  --primary: #f6466f;
-  --dark: #2d0916;
+  --primary-hue: 350;
+
+  --highlight: hsl(
+    calc(var(--primary-hue) - 10),
+    var(--highlight-saturation),
+    var(--highlight-luminosity)
+  );
+
+  --primary: hsl(
+    var(--primary-hue),
+    var(--primary-saturation),
+    var(--primary-luminosity)
+  );
+
+  --dark: hsl(
+    calc(var(--primary-hue) + 10),
+    var(--dark-saturation),
+    var(--dark-luminosity)
+  );
 }
 
 .monday, .Monday {
-  --highlight: #fcadaa;
-  --primary: #f65848;
-  --dark: #3c0e0b;
+  --primary-hue: 300;
+
+  --highlight: hsl(
+    calc(var(--primary-hue) - 10),
+    var(--highlight-saturation),
+    var(--highlight-luminosity)
+  );
+
+  --primary: hsl(
+    var(--primary-hue),
+    var(--primary-saturation),
+    var(--primary-luminosity)
+  );
+
+  --dark: hsl(
+    calc(var(--primary-hue) + 10),
+    var(--dark-saturation),
+    var(--dark-luminosity)
+  );
 }
 
 .tuesday, .Tuesday {
-  --highlight: #aedbfa;
-  --primary: #3b87f0;
-  --dark: #070615;
+  --primary-hue: 250;
+
+  --highlight: hsl(
+    calc(var(--primary-hue) - 10),
+    var(--highlight-saturation),
+    var(--highlight-luminosity)
+  );
+
+  --primary: hsl(
+    var(--primary-hue),
+    var(--primary-saturation),
+    var(--primary-luminosity)
+  );
+
+  --dark: hsl(
+    calc(var(--primary-hue) + 10),
+    var(--dark-saturation),
+    var(--dark-luminosity)
+  );
 }
 
 .wednesday, .Wednesday {
-  --highlight: #fff3c4;
-  --primary: #ffd63d;
-  --dark: #2c1404;
+  --primary-hue: 200;
+
+  --highlight: hsl(
+    calc(var(--primary-hue) - 10),
+    var(--highlight-saturation),
+    var(--highlight-luminosity)
+  );
+
+  --primary: hsl(
+    var(--primary-hue),
+    var(--primary-saturation),
+    var(--primary-luminosity)
+  );
+
+  --dark: hsl(
+    calc(var(--primary-hue) + 10),
+    var(--dark-saturation),
+    var(--dark-luminosity)
+  );
 }
 
 .thursday, .Thursday {
-  --highlight: #f7b79b;
-  --primary: #ed6022;
-  --dark: #210b04;
+  --primary-hue: 150;
+
+  --highlight: hsl(
+    calc(var(--primary-hue) - 10),
+    var(--highlight-saturation),
+    var(--highlight-luminosity)
+  );
+
+  --primary: hsl(
+    var(--primary-hue),
+    var(--primary-saturation),
+    var(--primary-luminosity)
+  );
+
+  --dark: hsl(
+    calc(var(--primary-hue) + 10),
+    var(--dark-saturation),
+    var(--dark-luminosity)
+  );
 }
 
 .friday, .Friday {
-  --highlight: #e9f9b7;
-  --primary: #92e649;
-  --dark: #192108;
+  --primary-hue: 100;
+
+  --highlight: hsl(
+    calc(var(--primary-hue) - 10),
+    var(--highlight-saturation),
+    var(--highlight-luminosity)
+  );
+
+  --primary: hsl(
+    var(--primary-hue),
+    var(--primary-saturation),
+    var(--primary-luminosity)
+  );
+
+  --dark: hsl(
+    calc(var(--primary-hue) + 10),
+    var(--dark-saturation),
+    var(--dark-luminosity)
+  );
 }
 
 .saturday, .Saturday {
-  --highlight: #f39caa;
-  --primary: #e22c3c;
-  --dark: #100305;
+  --primary-hue: 50;
+
+  --highlight: hsl(
+    calc(var(--primary-hue) - 10),
+    var(--highlight-saturation),
+    var(--highlight-luminosity)
+  );
+
+  --primary: hsl(
+    var(--primary-hue)
+    var(--primary-saturation),
+    var(--primary-luminosity)
+  );
+
+  --dark: hsl(
+    calc(var(--primary-hue) + 10),
+    var(--dark-saturation),
+    var(--dark-luminosity)
+  );
 }
 
 .daily .subtitle {

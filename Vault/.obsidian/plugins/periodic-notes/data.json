@@ -16,7 +16,7 @@
   },
   "monthly": {
     "format": "",
-    "template": "",
+    "template": "99 - Meta/00 - Templates/(TEMPLATE) Monthly.md",
     "folder": "06 - Daily/01 - Monthly",
     "enabled": true
   },

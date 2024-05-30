@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md"
+                "file": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
               }
             }
           },
@@ -209,15 +209,17 @@
   },
   "active": "5db9412631276d6d",
   "lastOpenFiles": [
+    "99 - Meta/00 - Templates/(TEMPLATE) Monthly.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+    "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
+    "06 - Daily/00 - Weekly/2024-W22.md",
+    "06 - Daily/20240529.md",
+    "06 - Daily/01 - Monthly/2024-05.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
-    "06 - Daily/20240529.md",
     "99 - Meta/Backgrounds/requiem2_banner.jpg",
     "99 - Meta/Backgrounds",
     "Untitled",
-    "06 - Daily/00 - Weekly/2024-W22.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md",
     "00 - Maps of Content/00 Homepage.md",
     "07 - Archives/Placeholder.md",
     "06 - Daily/03 - Yearly",
