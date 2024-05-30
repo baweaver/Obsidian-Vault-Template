@@ -6,20 +6,32 @@ cssclasses:
   - <% "daily" %>
   - sunday
 ---
-# Week <% tp.date.now('WW') %>
+<%*
+
+// Weekly note setup
+
+const startOfWeek = tp.date.weekday('YYYY-MM-DD', 1);
+const endOfWeek = tp.date.weekday('YYYY-MM-DD', 7);
+
+const shortStartOfWeek = tp.date.weekday('MM-DD', 1);
+const readableEndOfWeek = tp.date.weekday('MM-DD-YYYY', 7);
+
+const weekNumber = tp.date.now('WW');
+
+%>
+# Week <% weekNumber %>
 
 <span class="subtitle">
-  From <% tp.date.weekday('MM-DD', 1) %> to
-  <% tp.date.weekday('MM-DD-YYYY', 7) %>
+  From <% shortStartOfWeek %> to <% readableEndOfWeek %>
 </span>
 
-***
+---
 
 ## Journal
 
 TODO
 
-***
+---
 
 ## References
 
@@ -29,8 +41,8 @@ TODO
 TABLE file.mtime AS "Modified"
   FROM #daily
   WHERE
-    file.cday >= date(<% tp.date.weekday('YYYY-MM-DD', 1) %>)
-      AND file.cday <= date(<% tp.date.weekday('YYYY-MM-DD', 7) %>)
+    file.cday >= date(<% startOfWeek %>)
+    AND file.cday <= date(<% endOfWeek %>)
   SORT file.cday
 ```
 
@@ -40,29 +52,32 @@ TABLE file.mtime AS "Modified"
 TASK
   FROM #daily
   WHERE
-    file.cday >= date(<% tp.date.weekday('YYYY-MM-DD', 1) %>)
-      AND file.cday <= date(<% tp.date.weekday('YYYY-MM-DD', 7) %>)
-	  AND !completed
+    file.cday >= date(<% startOfWeek %>)
+    AND file.cday <= date(<% endOfWeek %>)
+    AND !completed
   GROUP BY file.link
 ```
 
 ### Created This Week
 
 ```dataview
-TABLE file.ctime AS "Created", file.folder AS "Folder"
-  WHERE (
-    date(file.ctime).weekyear = <% tp.date.now('WW') %>
-  )
-  SORT file.cday
+TABLE
+  file.ctime AS "Created",
+  file.folder AS "Folder",
+  file.tags AS "Tags"
+WHERE date(file.ctime).weekyear = <% weekNumber %>
+SORT file.cday
 ```
 
 ### Modified This Week
 
 ```dataview
-TABLE file.ctime AS "Created", file.folder AS "Folder"
-  WHERE (
-    date(file.mtime).weekyear = <% tp.date.now('WW') %> AND
-    date(file.ctime).weekyear != <% tp.date.now('WW') %> 
-  )
-  SORT file.cday
+TABLE
+  file.ctime AS "Created",
+  file.folder AS "Folder",
+  file.tags AS "Tags"
+WHERE
+  date(file.mtime).weekyear = <% weekNumber %> AND
+  date(file.ctime).weekyear != <% weekNumber %> 
+SORT file.cday
 ```

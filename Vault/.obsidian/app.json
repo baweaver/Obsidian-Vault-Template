@@ -11,5 +11,7 @@
   "propertiesInDocument": "visible",
   "autoPairBrackets": false,
   "readableLineLength": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "tabSize": 2,
+  "useTab": false
 }
