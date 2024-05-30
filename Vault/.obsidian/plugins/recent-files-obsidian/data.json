@@ -1,32 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "(TEMPLATE) Daily",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
-    },
-    {
-      "basename": "(TEMPLATE) Monthly",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Monthly.md"
-    },
-    {
-      "basename": "(TEMPLATE) Unique",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md"
-    },
-    {
-      "basename": "(TEMPLATE) Weekly",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md"
-    },
-    {
-      "basename": "(TEMPLATE) Daily (Vanilla)",
-      "path": "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md"
-    },
-    {
       "basename": "00 Homepage",
       "path": "00 - Maps of Content/00 Homepage.md"
     },
     {
-      "basename": "Placeholder",
-      "path": "07 - Archives/Placeholder.md"
+      "basename": "202403091325 Daily Class Preload",
+      "path": "99 - Meta/Preloaded Classes/202403091325 Daily Class Preload.md"
     },
     {
       "basename": "202403091325 General Tweaks CSS Classes",
@@ -35,6 +15,38 @@
     {
       "basename": "202401211512 Notebook CSS Classes",
       "path": "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md"
+    },
+    {
+      "basename": "(Periodic) Weekly Template",
+      "path": "99 - Meta/00 - Templates/(Periodic) Weekly Template.md"
+    },
+    {
+      "basename": "(TEMPLATE) Unique",
+      "path": "99 - Meta/00 - Templates/(TEMPLATE) Unique.md"
+    },
+    {
+      "basename": "(Periodic) Monthly Template",
+      "path": "99 - Meta/00 - Templates/(Periodic) Monthly Template.md"
+    },
+    {
+      "basename": "(Periodic) Daily Template",
+      "path": "99 - Meta/00 - Templates/(Periodic) Daily Template.md"
+    },
+    {
+      "basename": "(ZK) Area Template",
+      "path": "99 - Meta/00 - Templates/(ZK) Area Template.md"
+    },
+    {
+      "basename": "(ZK) Project Template",
+      "path": "99 - Meta/00 - Templates/(ZK) Project Template.md"
+    },
+    {
+      "basename": "(ZK) Resource Template",
+      "path": "99 - Meta/00 - Templates/(ZK) Resource Template.md"
+    },
+    {
+      "basename": "Placeholder",
+      "path": "07 - Archives/Placeholder.md"
     }
   ],
   "omittedPaths": [],

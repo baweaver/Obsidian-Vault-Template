@@ -15,8 +15,16 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "01 - Projects",
+      "template": "99 - Meta/00 - Templates/(ZK) Project Template.md"
+    },
+    {
+      "folder": "02 - Areas",
+      "template": "99 - Meta/00 - Templates/(ZK) Area Template.md"
+    },
+    {
+      "folder": "03 - Resources",
+      "template": "99 - Meta/00 - Templates/(ZK) Resource Template.md"
     }
   ],
   "syntax_highlighting": true,

@@ -1,4 +1,6 @@
 {
   "vauxhall@@main-color": "vauxhall-purple",
-  "vauxhall@@color-intensity": "intensity-nebula"
+  "vauxhall@@color-intensity": "intensity-nebula",
+  "vauxhall@@header-color-type": "headers-mono-gradient",
+  "vauxhall@@h1-accent": false
 }
