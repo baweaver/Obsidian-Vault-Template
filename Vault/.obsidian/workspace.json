@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Maps of Content/01 Meetings.md",
+                "file": "05 - Fleeting/Placeholder.md",
                 "mode": "preview",
                 "source": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Maps of Content/01 Meetings.md",
+                "file": "05 - Fleeting/Placeholder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Maps of Content/01 Meetings.md",
+                "file": "05 - Fleeting/Placeholder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Maps of Content/01 Meetings.md"
+                "file": "05 - Fleeting/Placeholder.md"
               }
             }
           },
@@ -179,7 +179,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00 - Maps of Content/01 Meetings.md"
+                "file": "05 - Fleeting/Placeholder.md"
               }
             }
           }
@@ -217,10 +217,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "acb8d3aaf8775f81",
+  "active": "48db5e5e042efd58",
   "lastOpenFiles": [
-    "00 - Maps of Content/00 Homepage.md",
+    "07 - Meetings/1-1s/Placeholder.md",
+    "07 - Meetings/Standups/Placeholder.md",
+    "06 - Periodic/00 - Daily/Placeholder.md",
+    "06 - Periodic/01 - Weekly/Placeholder.md",
+    "06 - Periodic/02 - Monthly/Placeholder.md",
+    "06 - Periodic/03 - Quarterly/Placeholder.md",
+    "06 - Periodic/04 - Yearly/Placeholder.md",
+    "06 - Periodic/Placeholder.md",
+    "07 - Meetings/Placeholder.md",
+    "08 - Entities/01 - People/Placeholder.md",
     "00 - Maps of Content/01 Meetings.md",
+    "00 - Maps of Content/00 Homepage.md",
     "06 - Periodic/02 - Monthly/2024-06.md",
     "06 - Periodic/01 - Weekly/2024-W23.md",
     "08 - Entities/01 - People/Brandon Weaver.md",
@@ -239,15 +249,6 @@
     "07 - Meetings",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "06 - Periodic/00 - Daily",
-    "06 - Periodic/2024-06-02.md",
-    "06 - Daily/20240602.md",
-    "06 - Periodic/04 - Meetings/2024-06-02 ID Verification.md",
-    "06 - Periodic/04 - Meetings/2024-06-02 [OBSIDIAN TEST] #2 - Guests.md",
-    "99 - Meta/00 - Templates/Meeting Template AUTO.md",
-    "06 - Daily/04 - Meetings/2024-06-02 [OBSIDIAN TEST] #1 - No Guest.md",
-    "06 - Daily/04 - Meetings/2024-06-02 [OBSIDIAN TEST] #1 - No Guest.md 1.md",
-    "06 - Daily/04 - Meetings/2024-06-02 [OBSIDIAN TEST] #1 - No Guest.md.md",
-    "06 - Daily/04 - Meetings/06 - Daily/04 - Meetings/2024-06-02 [OBSIDIAN TEST] #1 - No Guest.md 2.md",
     "06 - Daily/04 - Meetings/06 - Daily/04 - Meetings",
     "06 - Daily/04 - Meetings/06 - Daily",
     "scripts/js_engine/meeting_manager.js",
