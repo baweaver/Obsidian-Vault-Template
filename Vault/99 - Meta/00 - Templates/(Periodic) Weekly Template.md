@@ -10,19 +10,22 @@ cssclasses:
 
 // Weekly note setup
 
-const startOfWeek = tp.date.weekday('YYYY-MM-DD', 1);
-const endOfWeek = tp.date.weekday('YYYY-MM-DD', 7);
+const Momentary = tp.user.momentary;
+const thisMoment = new Momentary(tp.date);
 
-const shortStartOfWeek = tp.date.weekday('MM-DD', 1);
-const readableEndOfWeek = tp.date.weekday('MM-DD-YYYY', 7);
+const {
+  startOfWeek,
+  endOfWeek,
+  weekNumber,
+  shortStartOfWeek,
+  englishEndOfWeek
+} = thisMoment.properties();
 
-const weekNumber = tp.date.now('WW');
-
-%>
+-%>
 # Week <% weekNumber %>
 
 <span class="subtitle">
-  From <% shortStartOfWeek %> to <% readableEndOfWeek %>
+  From <% shortStartOfWeek %> to <% englishEndOfWeek %>
 </span>
 
 ---
@@ -32,6 +35,34 @@ const weekNumber = tp.date.now('WW');
 TODO
 
 ---
+
+## Meetings
+
+```meta-bind-button
+label: New Meeting
+hidden: false
+class: ""
+tooltip: "Create new meeting"
+id: ""
+style: default
+actions:
+  - type: templaterCreateNote
+    templateFile: 99 - Meta/00 - Templates/Meeting Template.md
+    folderPath: "07 - Meetings"
+    fileName: TKTK
+    openNote: true
+```
+
+```dataview
+TABLE file.cday as Created, summary
+FROM #Meeting
+WHERE
+  file.cday >= date(<% startOfWeek %>)
+  AND file.cday <= date(<% endOfWeek %>)
+  AND !contains(file.folder, "99 - Meta")
+  AND !contains(file.name, "Placeholder")
+SORT file.ctime DESC
+```
 
 ## References
 
@@ -43,6 +74,8 @@ TABLE file.mtime AS "Modified"
   WHERE
     file.cday >= date(<% startOfWeek %>)
     AND file.cday <= date(<% endOfWeek %>)
+    AND !contains(file.folder, "99 - Meta")
+    AND !contains(file.name, "Placeholder")
   SORT file.cday
 ```
 
@@ -54,6 +87,8 @@ TASK
   WHERE
     file.cday >= date(<% startOfWeek %>)
     AND file.cday <= date(<% endOfWeek %>)
+    AND !contains(file.folder, "99 - Meta")
+    AND !contains(file.name, "Placeholder")
     AND !completed
   GROUP BY file.link
 ```
@@ -66,7 +101,8 @@ TABLE
   file.folder AS "Folder",
   file.tags AS "Tags"
 WHERE
-  date(file.ctime).weekyear = <% weekNumber %>
+  file.cday >= date(<% startOfWeek %>)
+  AND file.cday <= date(<% endOfWeek %>)
   AND !contains(file.folder, "99 - Meta")
   AND !contains(file.name, "Placeholder")
 SORT file.cday
@@ -80,8 +116,8 @@ TABLE
   file.folder AS "Folder",
   file.tags AS "Tags"
 WHERE
-  date(file.mtime).weekyear = <% weekNumber %>
-  AND date(file.ctime).weekyear != <% weekNumber %>
+  file.cday >= date(<% startOfWeek %>)
+  AND file.cday <= date(<% endOfWeek %>)
   AND !contains(file.folder, "99 - Meta")
   AND !contains(file.name, "Placeholder")
 SORT file.cday

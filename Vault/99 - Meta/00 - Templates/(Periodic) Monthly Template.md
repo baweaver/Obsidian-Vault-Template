@@ -3,9 +3,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>T<% tp.date.now("HH:mm") %>
 tags:
   - Monthly
 cssclasses:
-  - <%
-  - '"daily"'
-  - "%>"
+  - daily
   - monday
 ---
 <%*
@@ -24,7 +22,7 @@ const endOfMonth = nowMoment.endOf('month').format(dateFormat);
 
 const monthName = tp.date.now('MMMM');
 
-%>
+-%>
 # Month of <% monthName %>
 
 <span class="subtitle">
