@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "",
+  "user_scripts_folder": "scripts/templater",
   "enable_folder_templates": true,
   "folder_templates": [
     {
@@ -25,6 +25,10 @@
     {
       "folder": "03 - Resources",
       "template": "99 - Meta/00 - Templates/(ZK) Resource Template.md"
+    },
+    {
+      "folder": "07 - Entities/01 - People",
+      "template": "99 - Meta/00 - Templates/Person Template.md"
     }
   ],
   "syntax_highlighting": true,

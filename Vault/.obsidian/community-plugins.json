@@ -33,5 +33,9 @@
   "darlal-switcher-plus",
   "periodic-notes",
   "obsidian-banners",
-  "execute-code"
+  "execute-code",
+  "obsidian-meta-bind-plugin",
+  "metaedit",
+  "js-engine",
+  "ics"
 ]

@@ -14,7 +14,9 @@
     "showContextInCards": false,
     "flashcardHeightPercentage": 80,
     "flashcardWidthPercentage": 100,
-    "randomizeCardOrder": true,
+    "randomizeCardOrder": null,
+    "flashcardCardOrder": "DueFirstRandom",
+    "flashcardDeckOrder": "PrevDeckComplete_Sequential",
     "convertHighlightsToClozes": true,
     "convertBoldTextToClozes": false,
     "convertCurlyBracketsToClozes": false,
@@ -42,7 +44,7 @@
     "maxLinkFactor": 1,
     "showDebugMessages": false
   },
-  "buryDate": "2024-05-29",
+  "buryDate": "2024-06-02",
   "buryList": [],
   "historyDeck": null
 }
